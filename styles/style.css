@@ -17,11 +17,21 @@
     font-style: normal;
   }
 
-  p {font-family: "Poltawski Nowy";}
+  p {font-family: "Poltawski Nowy"; font-size: 50px;}
 
-  h1 {font-family: "Jomhuria";}
+  h1 {font-family: "Jomhuria"; font-size: 96px;}
 
-  .hero {background-color: #DAE0EE; text-align: center;}
+  .hero {background-color: #DAE0EE; text-align: center;
+padding: 150px 0;}
 
   .hero p {font-family: "Jomhuria";
-font-size: 36px;}
+font-size: 34px;
+font-weight: bold;
+margin: 0;}
+.btn-primary {font-family: "Poltawski Nowy"; font-size: 22;}
+
+.hero h2 {font-family: "Poltawski Nowy"; font-weight: normal; 
+    font-size: 26px; line-height: 2;} 
+
+    .btn-branding {background-color: #2C38AA; border-radius: 5px;
+    color: #E9E4EE; font-size: 16px; line-height: 18px; padding: 10px 15px;}
