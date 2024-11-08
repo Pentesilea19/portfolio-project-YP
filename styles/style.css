@@ -1,0 +1,18 @@
+.jomhuria-regular {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  
+.poltawski-nowy-ridny {
+    font-family: "Poltawski Nowy", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  p {font-family: "Poltawski Nowy";}
+
+  h1 {font-family: "Jomhuria";}
