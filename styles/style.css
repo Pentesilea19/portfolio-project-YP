@@ -3,8 +3,6 @@
     font-weight: 400;
     font-style: normal;
   }
-
-  
   
 .poltawski-nowy-ridny {
     font-family: "Poltawski Nowy", serif;
@@ -13,6 +11,17 @@
     font-style: normal;
   }
 
+  h1, h2, h3, h4, h5 {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
   p {font-family: "Poltawski Nowy";}
 
   h1 {font-family: "Jomhuria";}
+
+  .hero {background-color: #DAE0EE; text-align: center;}
+
+  .hero p {font-family: "Jomhuria";
+font-size: 36px;}
