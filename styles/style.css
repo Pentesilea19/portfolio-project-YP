@@ -29,10 +29,11 @@ body {font-family: var(--basic-font-family);}
 line-height: 1.8;}
 
   h1 {font-family: "Jomhuria"; font-size: 120px;}
-  h2 {font-size: 44px;}
+  h2 {font-size: 64px;}
 
-  .hero {background-color: var(--basic-color); text-align: center;
-padding: 150px 0;}
+  .hero {background-color: var(--basic-color); 
+    text-align: center;
+padding: 140px 0;}
 
   .hero p {font-family: "Jomhuria";
 font-size: 34px;
@@ -69,9 +70,13 @@ margin: 0;}
             padding: 0;
             text-align: center;
         }
+        h1 {font-size: 60px; line-height: 2;}
+        h2 {font-size: 40px;}
+        .hero {padding: 80px 10;}
     }
 
-    .project-picture {background-color: var(--basic-color); 
+    .project-picture {height: 600px; width: 500px;
+        background-color: var(--basic-color); 
         padding: 15px 15px 15px 15px;
         border-radius: 5px;
         box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);}
