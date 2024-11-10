@@ -40,7 +40,8 @@ font-size: 34px;
 font-weight: bold;
 margin: 0;}
 
-.navbar {background-color: var(--basic-color)}
+.my-picture {height: 50px; width: 50px; 
+}
 
 
 .hero h2 {font-family: "Poltawski Nowy"; font-weight: bold; 
