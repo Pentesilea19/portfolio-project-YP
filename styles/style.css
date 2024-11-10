@@ -73,6 +73,7 @@ margin: 0;}
         h1 {font-size: 60px; line-height: 2;}
         h2 {font-size: 40px;}
         .hero {padding: 80px 10;}
+        ..project-description {font-size: 12px;}
     }
 
     .project-picture {height: 600px; width: 500px;
