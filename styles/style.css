@@ -34,7 +34,7 @@ line-height: 1.8;}
   
     .hero {background-color: var(--basic-color); 
     text-align: center;
-padding: 140px 0;}
+padding: 80px 0;}
 
   .hero p {font-family: "Jomhuria";
 font-size: 34px;
@@ -84,6 +84,7 @@ margin: 0;}
         .hi-words {font-size: 35px;}
         .hero {padding: 80px 10;}
         .project-text {font-size: 16px;}
+        .navbar-brand {font-size: 12px;}
             }
 
     .project-picture {height: 600px; width: 500px;
