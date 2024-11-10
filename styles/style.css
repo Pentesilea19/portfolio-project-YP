@@ -40,6 +40,8 @@ font-size: 34px;
 font-weight: bold;
 margin: 0;}
 
+.navbar {background-color: var(--basic-color)}
+
 
 .hero h2 {font-family: "Poltawski Nowy"; font-weight: bold; 
     font-size: 26px; line-height: 1;} 
@@ -65,16 +67,20 @@ margin: 0;}
 
     .project-description {padding: 160px 60px;}
 
+    .project-text {font-size: 22px;}
+    .hi-words {font-size: 60px;}
+
     @media (max-width: 960px) {
         .project-description {
             padding: 0;
             text-align: center;
-        }
+                    }
         h1 {font-size: 60px; line-height: 2;}
         h2 {font-size: 40px;}
+        .hi-words {font-size: 35px;}
         .hero {padding: 80px 10;}
-        ..project-description {font-size: 12px;}
-    }
+        .project-text {font-size: 16px;}
+            }
 
     .project-picture {height: 600px; width: 500px;
         background-color: var(--basic-color); 
