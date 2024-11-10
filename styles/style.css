@@ -31,7 +31,8 @@ line-height: 1.8;}
   h1 {font-family: "Jomhuria"; font-size: 120px;}
   h2 {font-size: 64px;}
 
-  .hero {background-color: var(--basic-color); 
+  
+    .hero {background-color: var(--basic-color); 
     text-align: center;
 padding: 140px 0;}
 
