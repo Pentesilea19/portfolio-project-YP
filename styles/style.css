@@ -85,6 +85,7 @@ margin: 0;}
         .hero {padding: 80px 10;}
         .project-text {font-size: 16px;}
         .navbar-brand {font-size: 12px;}
+        .about-me {text-align: center; padding: 0; background: none;}
             }
 
     .project-picture {height: 600px; width: 500px;
@@ -93,7 +94,13 @@ margin: 0;}
         border-radius: 5px;
         box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);}
 
-        .portrait {max-width: 380px; border-radius: 5px; background: 50px;
+        .portrait {width: 100%;
+            max-width: 400px;
+            height: auto;  border-radius: 5px; background: 50px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.25);}
 
-        .about-me {padding: 20px; background-color: var(--basic-color); border-radius: 5px; box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);}
+        .about-me {padding: 20px; background-color: var(--basic-color); 
+            border-radius: 5px; box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+        }
+
+        .projects-button {margin-top: 50px; }
