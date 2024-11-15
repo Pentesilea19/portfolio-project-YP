@@ -62,8 +62,9 @@ color: black; font-size: 18px; box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25)}
         font-size: 22; 
         background-color: var(--branding-color); 
         border-radius: 5px;
+        text-decoration: none;
     color: #E9E4EE; 
-    font-size: 16px;
+    font-size: 20px;
      line-height: 18px; 
     padding: 10px 15px;}
 
@@ -76,6 +77,16 @@ color: black; font-size: 18px; box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25)}
     font-size: 16px;
      line-height: 18px; 
     padding: 10px 15px;}
+
+    .btn-branding-soon {font-family: "Poltawski Nowy"; 
+      font-size: 22; 
+      background-color: var(--basic-color); 
+      border: 1px solid var(--branding-color);
+      border-radius: 5px;
+  color:  var(--branding-color); 
+  font-size: 16px;
+   line-height: 18px; 
+  padding: 10px 15px;}
 
     .project-description {padding: 160px 60px;}
 
