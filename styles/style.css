@@ -31,6 +31,23 @@ line-height: 1.8;}
   h1 {font-family: "Jomhuria"; font-size: 120px;}
   h2 {font-size: 64px;}
 
+  footer .socials a {margin: 0 30px; color: var(--branding-color); 
+    background-color: var(--basic-color); padding: 10px 18px; font-size: 28px; 
+    border-radius: 70%;}
+
+    footer .socials a:hover {color: #5860a8; 
+      background-color: var(--branding-color);
+    transition: all 120ms ease-in-out;}
+
+    .pername {display: inline;}
+
+  footer {margin: 40px 0;}
+
+  footer .maillink {text-decoration: none; color: black; 
+    font-size: 30px; text-align: center;}
+
+    footer .maillink:hover {color:#5860a8}
+
   
     .hero {background-color: var(--basic-color); 
     text-align: center;
@@ -148,7 +165,7 @@ nav a:hover, nav li.active a {color: #5860a8;}
   .navbar-brand {font-size: 12px;}
   .about-me {text-align: center; padding: 0; background: none;}
   nav li {font-size: 12px;}
-  .homepage {
+  .pername {
     display: none;
   }
       }
