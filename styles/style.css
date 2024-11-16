@@ -1,4 +1,4 @@
-:root {--branding-color: #2C38AA;
+:root {--branding-color: #2c38aa;
     --basic-color: #DAE0EE;
 --heading-font-family: "Jomhuria", serif; font-weight: 400;
 font-style: normal;
@@ -49,8 +49,10 @@ color: black; font-size: 18px; box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25)}
 .email-link {color: black; font-size: 18px;}
 
 
-.my-picture {height: 50px; width: 50px; 
+.my-picture {height: 50px; width: 50px;
 }
+
+nav {padding: 20px;}
 
 .important {text-align: center;}
 
@@ -88,24 +90,29 @@ color: black; font-size: 18px; box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25)}
    line-height: 18px; 
   padding: 10px 15px;}
 
+  nav li {display: inline;
+  list-style: none;
+line-height: 57px;
+font-size: 1.25rem;
+margin-left: 10px;}
+
+  nav ul {padding: 0;
+  margin: 0; }
+
+nav a {text-decoration: none;
+color: black;
+transition: all 120ms ease-out}
+
+nav a:hover, nav li.active a {color: #5860a8;}
+
+ 
+
+  .navbar-brand {text-decoration: none; color: black;}
+
     .project-description {padding: 160px 60px;}
 
     .project-text {font-size: 22px;}
     .hi-words {font-size: 60px;}
-
-    @media (max-width: 960px) {
-        .project-description {
-            padding: 0;
-            text-align: center;
-                    }
-        h1 {font-size: 60px; line-height: 2;}
-        h2 {font-size: 40px;}
-        .hi-words {font-size: 35px;}
-        .hero {padding: 80px 10;}
-        .project-text {font-size: 16px;}
-        .navbar-brand {font-size: 12px;}
-        .about-me {text-align: center; padding: 0; background: none;}
-            }
 
     .project-picture {height: 600px; width: 500px;
         background-color: var(--basic-color); 
@@ -127,3 +134,21 @@ color: black; font-size: 18px; box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25)}
 
         .content {text-align: center;}
 .about-section {text-align: center;}
+
+@media (max-width: 960px) {
+  .project-description {
+      padding: 0;
+      text-align: center;
+              }
+  h1 {font-size: 60px; line-height: 2;}
+  h2 {font-size: 40px;}
+  .hi-words {font-size: 35px;}
+  .hero {padding: 80px 10;}
+  .project-text {font-size: 16px;}
+  .navbar-brand {font-size: 12px;}
+  .about-me {text-align: center; padding: 0; background: none;}
+  nav li {font-size: 12px;}
+  .homepage {
+    display: none;
+  }
+      }
