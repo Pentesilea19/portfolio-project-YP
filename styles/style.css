@@ -174,14 +174,16 @@ nav a:hover, nav li.active a {color: #5860a8;}
   .project-text {font-size: 16px;}
   .navbar-brand {font-size: 12px;}
   .about-me {text-align: center; padding: 0; background: none;}
+  .maillink {font-size: 12px;}
   nav li {font-size: 12px;}
   .pername {
     display: none;
   }
+  .inquiry-box {width: 70%; margin-left: 20%;}
   h4 {font-size: 40px;}
   footer .inquiry-box p {
-    font-size: 16px;
-  }
+    font-size: 16px;  }
+    
   footer .contact-button {font-size: 16px; padding: 10px 15px;}
       
     }
