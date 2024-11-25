@@ -32,6 +32,8 @@ line-height: 1.8;}
   h2 {font-size: 64px;}
   h4 {font-size: 56px;}
 
+  .recipes {text-align: center; color: var(--branding-color);}
+
   footer .socials a {margin: 0 30px; color: var(--branding-color); 
     background-color: var(--basic-color); padding: 10px 18px; font-size: 28px; 
     border-radius: 70%;}
