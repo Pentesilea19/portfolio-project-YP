@@ -36,15 +36,15 @@ line-height: 1.8;}
     background-color: var(--basic-color); padding: 10px 18px; font-size: 28px; 
     border-radius: 70%;}
 
-    footer .socials a:hover {color: #5860a8; 
+  footer .socials a:hover {color: #5860a8; 
       background-color: var(--branding-color);
     transition: all 120ms ease-in-out;}
 
-    footer .inquiry-box {background-color: var(--basic-color); 
-      padding: 20px; border-radius: 10px; max-width: 600px;}
+    .inquiry-box {background-color: var(--basic-color); 
+      padding: 20px; border-radius: 10px}
 
-      footer .inquiry-box p {font-size: 22px; margin: 0;}
-      footer .contact-button {font-size: 22px; padding: 15px 20px;}
+    .inquiry-box p {font-size: 22px; margin: 0;}
+    footer .contact-button {font-size: 22px; padding: 15px 20px;}
 
 
 
@@ -162,6 +162,7 @@ nav a:hover, nav li.active a {color: #5860a8;}
         .content {text-align: center;}
 .about-section {text-align: center;}
 
+
 @media (max-width: 960px) {
   .project-description {
       padding: 0;
@@ -183,7 +184,9 @@ nav a:hover, nav li.active a {color: #5860a8;}
   h4 {font-size: 40px;}
   footer .inquiry-box p {
     font-size: 16px;  }
+
+    .formaction {display: none;}
     
   footer .contact-button {font-size: 16px; padding: 10px 15px;}
-      
+        
     }
